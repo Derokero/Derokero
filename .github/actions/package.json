@@ -1,0 +1,15 @@
+{
+	"name": "update-readme",
+	"version": "1.0.0",
+	"description": "Updates the README.MD",
+	"main": "build/index.ts",
+	"scripts": {
+		"start": "tsc"
+	},
+	"author": "Derokero",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^15.12.2",
+		"typescript": "^4.3.2"
+	}
+}

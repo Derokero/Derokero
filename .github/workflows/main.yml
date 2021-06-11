@@ -1,0 +1,23 @@
+name: Update-Readme
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Update Readme
+        run: |
+          sudo apt-get update && sudo apt-get install nodejs
+          git clone https://derokero:${{secrets.GITHUB_TOKEN}}@github.com/Derokero/Derokero.git
+          cd Derokero/.github/actions
+          npm install && npm start
+          node ./build/index.js > ../../README.md
+          git config user.name "Update Bot"
+          git config user.email "Update.Bot@beep.boop"
+          git commit --amend -am "Bot: Updated readme! 🥳"
+          git push -f
