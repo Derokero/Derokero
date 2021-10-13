@@ -1,5 +1,6 @@
 <h1 align="left" >Hi there! 👋 <br/> I'm Derokero!</h1>
-
+		
+	
 #### I like doing random things with technology and stuff!<br/>I especially like making things from scratch, it's fun and you learn a lot! :D
 
 🌱 I’m currently learning: **Random things!**
@@ -9,14 +10,20 @@
 #### Here's a cat!
 
 
-<img alt="Cat" src="https://cdn2.thecatapi.com/images/4kj.gif" width="300"/>
+<img alt="Cat" src="https://cdn2.thecatapi.com/images/453.jpg" width="300"/>
 
-What's the best thing about a Boolean?</br>
-Even if you're wrong, you're only off by a bit.
+The six stages of debugging:
+1. That can't happen.
+2. That doesn't happen on my machine.
+3. That shouldn't happen.
+4. Why does that happen?
+5. Oh, I see.
+6. How did that ever work?</br>
+
 
 _New joke and cat every day! Such Wow!_
 
-This page was last updated automagically on: 7/9/2021
+This page was last updated automagically on: 25/5/2025
 [![Update-Readme](https://github.com/Derokero/Derokero/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/Derokero/Derokero/actions/workflows/main.yml)
 
 #### Languages and Tools:
