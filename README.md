@@ -1,5 +1,6 @@
 <h1 align="left" >Hi there! 👋 <br/> I'm Derokero!</h1>
-
+		
+	
 #### I like doing random things with technology and stuff!<br/>I especially like making things from scratch, it's fun and you learn a lot! :D
 
 🌱 I’m currently learning: **Random things!**
@@ -9,14 +10,18 @@
 #### Here's a cat!
 
 
-<img alt="Cat" src="https://cdn2.thecatapi.com/images/4kj.gif" width="300"/>
+<img alt="Cat" src="https://cdn2.thecatapi.com/images/b5k.gif" width="300"/>
 
-What's the best thing about a Boolean?</br>
-Even if you're wrong, you're only off by a bit.
+Two C strings walk into a bar.
+The bartender asks "What can I get ya?"
+The first string says "I'll have a gin and tonic."
+The second string thinks for a minute, then says "I'll take a tequila sunriseJF()#$JF(#)$(@J#()$@#())!*FNIN!OBN134ufh1ui34hf9813f8h8384h981h3984h5F!##@"
+The first string apologizes, "You'll have to excuse my friend, he's not null-terminated."</br>
+
 
 _New joke and cat every day! Such Wow!_
 
-This page was last updated automagically on: 7/9/2021
+This page was last updated automagically on: 17/10/2026
 [![Update-Readme](https://github.com/Derokero/Derokero/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/Derokero/Derokero/actions/workflows/main.yml)
 
 #### Languages and Tools:
