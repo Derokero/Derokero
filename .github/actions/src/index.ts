@@ -28,10 +28,20 @@ const getData = async <T>(url: string): Promise<T> => {
 			try {
 				if (res.statusCode !== 200) throw "Status code returned non 200!";
 
+				let dataBufferArray: Buffer[] = [];
+
 				res
 					.on("data", (data: Buffer) => {
-						const parsedData: T = JSON.parse(data.toString());
-						resolve(parsedData);
+						dataBufferArray.push(data);
+					})
+					.on("end", () => {
+						const data = Buffer.concat(dataBufferArray);
+						try {
+							const parsedData: T = JSON.parse(data.toString());
+							resolve(parsedData);
+						} catch (error) {
+							reject("Failed to parse JSON! (╯°□°）╯︵ ┻━┻");
+						}
 					})
 					.on("error", (err: Error) => {
 						reject(err);
@@ -47,7 +57,8 @@ const getData = async <T>(url: string): Promise<T> => {
 	const [catData, jokeData] = await Promise.allSettled([getData<Cat>(CAT_API), getData<Joke>(JOKE_API)]);
 
 	const readme = `<h1 align="left" >Hi there! 👋 <br/> I'm Derokero!</h1>
-
+		
+	
 #### I like doing random things with technology and stuff!<br/>I especially like making things from scratch, it's fun and you learn a lot! :D
 
 🌱 I’m currently learning: **Random things!**
